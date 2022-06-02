@@ -10,4 +10,15 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+### Requirements
+
+- Docker "https://docs.docker.com/get-docker/"
+- git 
+
+### Steps 
+
+- Clone or download the repo
+- Get into the repo and run `docker-compose up` or `docker-compose up -d` for detachable mode
+- Check the ping site running locally -- http://localhost:3000/api/ping
+- Register a new user on http://localhost:3001/register  when its available
+- Done. You have your local testing environemnt ready
